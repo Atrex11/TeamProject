@@ -24,6 +24,7 @@ public class PlayerMovment : MonoBehaviour
         horizonlatMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         if (Input.GetButtonDown("Jump")) { jump = true; }
+
     }
 
     void FixedUpdate(){
